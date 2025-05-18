@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Blog & Articles - Bella’s Cat Palace</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background-color: white;
+    }
+
+    .navbar {
+            width: 100%;
+            background: peru;
+            padding: 10px 20px;
+            
+        }
+        .navbar a {
+  text-decoration: none !important;
+}
+
+        .navbar-brand img {
+            height: 60px;
+            background: transparent;
+            text-decoration: none;
+        }
+        .navbar-nav .nav-item .nav-link:hover {
+         
+        background-color: black; 
+        border-radius: 5px;
+        }
+        .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: #fff6eb;
+      border: 1px solid #e2c6b6;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(75, 46, 34, 0.1);
+    }
+
+    h1, h2 {
+      color: #7a4e2d;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .tip-box {
+      background-color: #fef0e5;
+      border-left: 4px solid #d68a59;
+      padding: 10px 15px;
+      margin: 10px 0;
+      border-radius: 5px;
+    }
+
+    .image-placeholder {
+      width: 100%;
+      height: 200px;
+      background-color: #e4cfc0;
+      border-radius: 10px;
+      margin-top: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #9a6c52;
+      font-size: 16px;
+    }
+
+    
+    footer {
+    background-color:peru ;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom: 20px;
+    font-weight: bold;
+    
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+
+   
+    
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: black;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-icons a img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.1);
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+}
+
+        .whatsapp-float {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1000;
+    }
+  </style>
+</head>
+<body>
+
+    <a href="https://web.whatsapp.com/send?phone=923324000847&text=Hi,%20I%20want%20to%20buy%20a%20kitten!" class="whatsapp-float" target="_blank">
+        <img src="./images/whatsapp-removebg-preview.png" width="50px" alt="WhatsApp Chat">
+    </a>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./images/xyz.png" style="height: 100px;" alt="Bellas Cat Palace Logo"> 
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="file:///C:/Users/HP/Desktop/front%20end%20wok/120%20tags%20practice/projectof%20web/index.html#" target="_blank" style="font-weight: bold; color: white;">🏠Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="file:///C:/Users/HP/Desktop/front%20end%20wok/120%20tags%20practice/projectof%20web/aboutus1.html"  target="_blank"style="font-weight: bold; color: white;">🐈About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="file:///C:/Users/HP/Desktop/front%20end%20wok/120%20tags%20practice/projectof%20web/available%20kittens.html" target="_blank" style="font-weight: bold; color: white;">🐾Categories</a></li>
+                    <li class="nav-item"><a class="nav-link" href="file:///C:/Users/HP/Desktop/front%20end%20wok/120%20tags%20practice/projectof%20web/contactus.html" target="_blank" style="font-weight: bold; color: white;">📞Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="file:///C:/Users/HP/Desktop/front%20end%20wok/120%20tags%20practice/projectof%20web/fAQs.html" target="_blank" style="font-weight: bold; color: white;">🐈FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="file:///C:/Users/HP/Desktop/front%20end%20wok/120%20tags%20practice/projectof%20web/caretips.html" target="_blank" style="font-weight: bold; color: white;">🐾Care Tips</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+<!-- Care Tips Section -->
+<div class="container my-5">
+    <h1 class="text-center text-peru mb-4">🐾 Persian Cat Care Tips</h1>
+  
+    <div class="text-center mb-4">
+      <img src="./images/pexels-yide-sun-84747826-24902933.jpg" alt="Beautiful Persian Cat" class="img-fluid rounded shadow" style="max-height: 350px; object-fit: cover;">
+    </div>
+  
+    <div class="bg-light p-4 rounded shadow-sm" >
+      <h3 class="text-peru">✨ Daily Grooming</h3>
+      <p>Persian cats have long, luxurious coats that require daily brushing to prevent tangles and mats. Use a wide-toothed comb and be gentle around sensitive areas like the belly and tail.</p>
+  
+      <h3 class="text-peru mt-4">🍽️ Healthy Diet</h3>
+      <p>Feed a balanced, high-protein diet formulated for long-haired or indoor cats. Keep fresh water available at all times and avoid overfeeding or excessive treats.</p>
+  
+      <h3 class="text-peru mt-4">👁️ Facial Cleaning</h3>
+      <p>Because of their flat faces, Persians may experience tear staining. Gently wipe their eyes daily using a soft cloth and warm water to keep them clean and reduce staining.</p>
+  
+      <h3 class="text-peru mt-4">🧼 Litter Box Hygiene</h3>
+      <p>Persian cats prefer cleanliness. Scoop the litter box daily, and fully change the litter weekly. Use unscented litter to avoid irritation or rejection of the box.</p>
+  
+      <h3 class="text-peru mt-4">🩺 Regular Vet Visits</h3>
+      <p>Annual checkups are essential. Keep vaccines updated and discuss breed-specific issues such as polycystic kidney disease (PKD) or breathing concerns with your veterinarian.</p>
+  
+      <h3 class="text-peru mt-4">🏠 Stress-Free Environment</h3>
+      <p>Persians are calm and affectionate. Give them a quiet, comfortable space, avoid loud noises, and offer toys and cozy bedding to make them feel secure and loved.</p>
+    </div>
+  </div>
+  
+  
+  <footer>
+    <div class="footer-content">
+        <!-- Navigation Links -->
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus1.html">About Us</a></li>
+                <li><a href="available kittens.html">Shop</a></li>
+                <li><a href="contactus.html">Contact</a></li>
+                <li><a href="fAQs.html">FAQ</a></li>
+                <li><a href="caretips.html">Care Tips</a></li>
+            </ul>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="footer-section">
+            <h3>Contact Us</h3>
+            <p>Phone: <a href="https://web.whatsapp.com/send?phone=923324000847&text=Hi,%20I%20want%20to%20buy%20a%20kitten!" style="color: white;" >0332-4000847</a></p>
+            <p>Email: <a href="https://mail.google.com/mail/u/0/#sent?compose=new" style="color: white;">info@bellascatpalace.com</a></p>
+            <p>Address: Rawalpindi, Pakistan</p>
+        </div>
+
+        <!-- Social Media Icons -->
+        <div class="footer-section">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="https://web.whatsapp.com/send?phone=923324000847&text=Hi,%20I%20want%20to%20buy%20a%20kitten!"> <img src="./images/whatsapp-removebg-preview.png" alt="WhatsApp"></a>
+                <a href="https://www.instagram.com/zeeshaqureshi/?__pwa=1"><img src="./images/instagram-removebg-preview.png" alt="Instagram"></a>
+                <a href="https://web.facebook.com/profile.php?id=61575140799953&_rdc=1&_rdr#"><img src="./images/facebook-removebg-preview.png" alt="facebook"></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="footer-bottom">
+        <p>&copy; 2025 Bella's Palace. All rights reserved.</p>
+    </div>
+</footer>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
